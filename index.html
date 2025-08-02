@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cendana Meubel - Toko Meubel Berkualitas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-couch"></i>
+                    <span>Cendana Meubel</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Furniture Berkualitas untuk Rumah Impian Anda</h1>
+            <p>Temukan koleksi meubel eksklusif dengan desain elegan dan kualitas terbaik</p>
+            <button class="cta-button" onclick="scrollToSection('products')">Lihat Koleksi</button>
+        </div>
+        <div class="hero-image">
+            <img src="images/furniture.jpeg" alt="Furniture Berkualitas Elegance" class="hero-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="placeholder-image" style="display: none;">
+                <i class="fas fa-home"></i>
+                <p>Gambar Hero</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Cendana Meubel telah melayani kebutuhan furniture berkualitas selama lebih dari 10 tahun. Kami menghadirkan produk-produk pilihan dengan desain modern dan klasik yang cocok untuk berbagai gaya rumah Anda.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-star"></i>
+                            <span>Kualitas Premium</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-truck"></i>
+                            <span>Gratis Ongkir</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tools"></i>
+                            <span>Garansi Resmi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/toko.png" alt="Toko Elegance Furniture" class="about-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="placeholder-image" style="display: none;">
+                        <i class="fas fa-store"></i>
+                        <p>Foto Toko</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Produk Unggulan</h2>
+            <div class="product-grid">
+
+                <!-- Product 1: Sofa -->
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/sofa-modern.jpg" alt="Sofa Modern Minimalis" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image" style="display: none;">
+                            <i class="fas fa-couch"></i>
+                            <p>Sofa</p>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sofa</h3>
+                        <p>Sofa adalah furnitur utama di ruang tamu yang berfungsi sebagai tempat duduk yang nyaman dan juga elemen dekoratif. Dengan berbagai pilihan desain, bahan, dan ukuran, sofa dapat disesuaikan dengan gaya ruangan dan kebutuhan penghuni. Sofa yang tepat membuat ruang terasa lebih hangat dan menyambut.</p>
+                        <a href="sofa.html">
+                        <button class="tombol-btn">Lihat Sofa</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product 2: Kasur -->
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/tempat-tidur.jpg" alt="Kasur" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image" style="display: none;">
+                            <i class="fas fa-bed"></i>
+                            <p>Kasur</p>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kasur</h3>
+                        <p>Kasur adalah alas tidur yang dirancang untuk memberikan kenyamanan dan menjaga kualitas tidur. Hadir dalam berbagai ukuran, bahan, dan tingkat keempukan, kasur dapat disesuaikan dengan kebutuhan dan preferensi masing-masing pengguna. Pilihan kasur yang tepat membantu mendukung kesehatan tubuh dan tidur lebih nyenyak.</p>
+                         <a href="kasur.html">
+                        <button class="tombol-btn">Lihat Kasur</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product 3: Kursi Kayu -->
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/kursi-makan.jpg" alt="Set Kursi Makan" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image" style="display: none;">
+                            <i class="fas fa-chair"></i>
+                            <p>Kursi Kayu</p>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kursi Kayu</h3>
+                        <p>Kursi kayu adalah furnitur serbaguna yang terbuat dari bahan kayu berkualitas, dikenal karena kekuatan dan tampilannya yang natural. Cocok untuk berbagai ruangan, kursi kayu memberikan kesan hangat, klasik, dan tahan lama dalam penggunaan jangka panjang.</p>
+                        <a href="kursi.html">
+                        <button class="tombol-btn">Lihat Kursi</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product 4: Lemari -->
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/lemari.jpg" alt="Lemari Pakaian 4 Pintu" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image" style="display: none;">
+                            <i class="fas fa-archive"></i>
+                            <p>Lemari</p>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Lemari</h3>
+                        <p>Lemari adalah furnitur penyimpanan yang digunakan untuk menyimpan pakaian, perlengkapan rumah, atau barang penting lainnya. Dengan berbagai desain dan ukuran, lemari membantu menjaga ruangan tetap rapi sekaligus menambah nilai estetika interior.</p>
+                       <a href="lemari.html">
+                        <button class="tombol-btn">Lihat Lemari</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product 5: Meja TV -->
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/meja-tv.jpg" alt="Meja TV Minimalis" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image" style="display: none;">
+                            <i class="fas fa-tv"></i>
+                            <p>Meja TV</p>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Meja TV</h3>
+                        <p>Meja TV adalah furnitur yang dirancang untuk menopang televisi sekaligus memberikan ruang penyimpanan tambahan seperti rak atau laci. Tersedia dalam berbagai desain dan bahan, meja TV tidak hanya fungsional tetapi juga menambah nilai estetika pada ruang keluarga atau ruang tamu.</p>
+                       <a href="mejatv.html">
+                        <button class="tombol-btn">Lihat Meja TV</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product 6: Meja Kerja -->
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/meja-kerja.jpg" alt="Meja Kerja Modern" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image" style="display: none;">
+                            <i class="fas fa-laptop"></i>
+                            <p>Meja Kerja</p>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Meja Kerja</h3>
+                        <p>Meja kerja adalah furnitur penting untuk menunjang produktivitas, baik di rumah maupun di kantor. Dirancang dengan permukaan luas dan sering dilengkapi laci atau rak, meja kerja membantu menyusun dokumen, alat tulis, dan perangkat kerja agar tetap rapi dan efisien.</p>
+                         <a href="mejakerja.html">
+                        <button class="tombol-btn">Lihat Meja TV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="contact" class="contact">
+    <div class="container">
+        <h2>Hubungi & Kunjungi Kami</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Alamat</h4>
+                        <p>Jalan K.H.Ahmad Dahlan No <br>Purworejo</p>
+                        </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Telepon</h4>
+                        <p>+62 895 3757 18172</p>
+                    </div>
+                </div>
+                <div class="contact-item whatsapp-contact">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <p>+62 895 3757 1872</p>
+                        <button class="whatsapp-btn" onclick="contactWhatsApp('Informasi Umum')">
+                            Chat Sekarang
+                        </button>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>cendanameubel@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.11092688690658!2d110.01811209680532!3d-7.707294935434277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aeb7bf80bc8ed%3A0x2bcffdf2b9a58c24!2sCendana%20Meubel!5e0!3m2!1sid!2sid!4v1754128298485!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-couch"></i>
+                        <span>Cendana Meubel</span>
+                    </div>
+                    <br>
+                    <p>Menghadirkan furniture berkualitas untuk rumah impian Anda sejak 2004.</p>
+                    <div class="whatsapp-footer">
+                
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4></h4>
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4></h4>
+                    <ul>
+                   
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4></h4>
+                    <div class="social-links">
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <br>
+                <p>&copy; 2025 Meubel Terbaik Di Purworejo</p>
+            </div>
+        </div>
+    </footer>
+
+  
+
+    <script src="js/script.js"></script>
+</body>
+</html>
